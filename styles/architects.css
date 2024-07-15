@@ -43,6 +43,11 @@ main>section {
   margin-top: 120px;
 }
 
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
 /* navbar related styles */
 .navbar {
   justify-content: space-between;
@@ -108,15 +113,39 @@ main>section {
   max-width: 440px;
 }
 
-.features-title {
-  font-size: 2.5rem;
-  font-weight: 700;
-}
-
 #quick-list {
   font-weight: 500;
 }
 
+/* some fect related styles */
+.facts-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.fact-card{
+  border: 1px solid #FF900E;
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.font-number{
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.font-name{
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.fact-description{
+  max-width: 448px;
+}
 /* Responsive media quarery */
 @media screen and (max-width:576px) {
 
