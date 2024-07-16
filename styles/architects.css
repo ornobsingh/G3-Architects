@@ -208,6 +208,18 @@ main>section {
   filter: grayscale(100%);
 }
 
+/* footer section style */
+.footer {
+  width: 100%;
+  background-color: #FFF4E7;
+  padding: 32px;
+}
+
+.footer-description {
+  text-align: center;
+  color: #424242;
+}
+
 /* Responsive media quarery */
 @media screen and (max-width:576px) {
 
