@@ -118,11 +118,12 @@ main>section {
 }
 
 /* some fect related styles */
-.facts-container{
+.facts-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
-.fact-card{
+
+.fact-card {
   border: 1px solid #FF900E;
   width: 200px;
   height: 200px;
@@ -131,21 +132,24 @@ main>section {
   align-items: center;
   justify-content: center;
 }
-.font-number{
+
+.font-number {
   font-size: 2.8rem;
   font-weight: 600;
   margin-top: 5px;
   margin-bottom: 10px;
 }
-.font-name{
+
+.font-name {
   font-size: 1.25rem;
   font-weight: 600;
   margin-top: 10px;
 }
 
-.fact-description{
+.fact-description {
   max-width: 448px;
 }
+
 /* Responsive media quarery */
 @media screen and (max-width:576px) {
 
@@ -155,10 +159,13 @@ main>section {
     flex-direction: column;
   }
 
-  .team-image-container {
+  .team-image-container, .facts-container {
     grid-template-columns: repeat(1, 1fr);
   }
-
+  .facts-container{
+    justify-items: center;
+    gap: 19px;
+  }
   .our-features {
     margin-left: 20px;
   }
